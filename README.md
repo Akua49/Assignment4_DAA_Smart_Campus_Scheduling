@@ -42,7 +42,7 @@ This implementation uses **edge weights** for path calculations.
 ```json
 {
   "directed": true,
-  "n": 8,
+  "n": 8
   "edges": [
     {"u": 0, "v": 1, "w": 3},
     {"u": 1, "v": 2, "w": 2}
@@ -50,12 +50,3 @@ This implementation uses **edge weights** for path calculations.
   "source": 4,
   "weight_model": "edge"
 }
-
-How to Build:
-./gradlew build
-
-How to Run
-./gradlew run
-
-How to Test
-./gradlew test
